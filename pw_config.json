@@ -1,0 +1,42 @@
+[
+    {
+        "configName" : "Kafka-ui PW",
+        "name" : "svc/kafka-ui",
+        "cloud_port" : 80,
+        "pw_to_port" : 8091,
+        "namespace" : "mynamespace",
+        "do_pw" : true
+    },
+    {
+        "configName" : "ArgoCD PW",
+        "name" : "svc/argocd-server",
+        "cloud_port" : 443,
+        "pw_to_port" : 8080,
+        "namespace" : "argo",
+        "do_pw" : true
+    },
+    {
+        "configName" : "Janus PW",
+        "name" : "svc/janusgraph",
+        "cloud_port" : 8182,
+        "pw_to_port" : 8182,
+        "namespace" : "mynamespace",
+        "do_pw" : true
+    },    
+    {
+        "configName" : "Redis PW",
+        "name" : "svc/avg-redis-master",
+        "cloud_port" : 6379,
+        "pw_to_port" : 6379,
+        "namespace" : "mynamespace",
+        "do_pw" : true
+    },
+    {
+        "configName" : "Postgres PW",
+        "name" : "pods/avg-postgres-instance1-cs2m-0",
+        "cloud_port" : 5432,
+        "pw_to_port" : 5432,
+        "namespace" : "mynamespace",
+        "do_pw" : true
+    }
+]
